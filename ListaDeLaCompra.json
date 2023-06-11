@@ -1,0 +1,123 @@
+{
+    "supermercados": [
+      {
+        "nombreSuper": "Supermercado 1",
+        "direccionSuper": "Rua Colon,Nº 56",
+        "geolocalizacionSuper": {
+          "latitudSuper": 65.1235,
+          "longitudSuper": -17.40418
+        },
+        
+        "productos": [
+          {
+            "nombre": "Pollo",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "kilo",
+            "precio": 6.80,
+            "cantidad": 1,
+            "comprado": true
+          },
+          {
+            "nombre": "Leche",
+            "oferta": false,
+            "unidad_medida": "litro",
+            "precio": 1.2,
+            "cantidad": 2,
+            "comprado": true
+          },
+          {
+            "nombre": "Pimiento",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-06-15",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "kilo",
+            "precio": 1.20,
+            "cantidad": 3,
+            "comprado": false
+          }
+        ]
+      },
+      {
+        "nombreSuper": "Supermercado 2",
+        "direccionSuper": "Rua Segunda, Nº 666",
+        "geolocalizacionSuper": {
+          "latitudSuper": 65.1235,
+          "longitudSuper": -17.40418
+        },
+        "productos": [
+          {
+            "nombre": "Arroz",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-05-01",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "paquete",
+            "precio": 1.50,
+            "cantidad": 1,
+            "comprado": false
+          },
+          {
+            "nombre": "Queso Mozzarella",
+            "oferta": false,
+            "unidad_medida": "kilo",
+            "precio": 15.00,
+            "cantidad": 1,
+            "comprado": true
+          },
+          {
+            "nombre": "Chocolate",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-06-15",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "pack",
+            "precio": 2.00,
+            "cantidad": 2,
+            "comprado": false
+          }
+        ]
+      },
+      {
+        "nombreSuper": "Supermercado 3",
+        "direccionSuper": "Gran Via ,Nº 1",
+        "geolocalizacionSuper": {
+          "latitudSuper": 65.1235,
+          "longitudSuper": -17.40418
+        },
+        "productos": [
+          {
+            "nombre": "Pasta",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-30"
+            },
+            "unidad_medida": "paquete",
+            "precio": 1.50,
+            "cantidad": 1,
+            "comprado": false
+          },
+          {
+            "nombre": "Cola Zero",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-06-01",
+              "fin": "2023-06-05"
+            },
+            "unidad_medida": "litro",
+            "precio": 1.50,
+            "cantidad": 1,
+            "comprado": false
+          }
+        ]
+      }
+    ]
+  }
